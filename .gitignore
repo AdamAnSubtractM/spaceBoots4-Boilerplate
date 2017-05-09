@@ -1,0 +1,49 @@
+# never commit compiled code
+prod/minified/*
+
+# Temporary Sass files
+.sass-cache/
+
+# Compiled source for deployment
+dist/
+tests/**/*input.css
+
+### Mac ###
+.DS_Store
+
+### Win ###
+Thumbs.db
+ehthumbs.db
+
+### IntelliJ ###
+.idea
+
+### Log files ###
+*.log
+
+### Node ###
+# Logs
+logs
+*.log
+
+### Runtime data ###
+pids
+*.pid
+*.seed
+
+### Local ###
+dev
+typings
+bower_components
+node_modules
+tmp
+tsconfig.json
+.yo-rc.json
+*.esproj
+*.esproj/*
+*.psd
+*.ai
+*.jpg
+*.png
+*.jpeg
+*.gif
