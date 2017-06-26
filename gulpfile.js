@@ -52,13 +52,14 @@ gulp.task('watch', function() {
   gulp.watch(config.app + '/css/*.css', ['css'], browserSync.reload);
   gulp.watch(config.app + '/*.html', ['index'], browserSync.reload);
   gulp.watch(config.app + '/js/**/*.js', ['js'], browserSync.reload);
+  gulp.watch(config.app + '/images/*', ['images'], browserSync.reload);
 });
 
 // ---- google page speed insights
 gulp.task('ngrok-url', function(cb) {
   return ngrok.connect(3000, function (err, url) {
     site = url;
-    console.log('serving your tunnel from: ' + site);
+    console.log('Serving your tunnel from: ' + site);
     cb();
   });
 });
