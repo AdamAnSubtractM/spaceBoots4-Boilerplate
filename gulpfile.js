@@ -30,7 +30,7 @@ var config = {
   prod: 'prod/',
 	dist: 'dist/',
   scss: 'scss/',
-	bowerDir: 'bower_components',
+	bowerDir: 'bower_components/',
 	bowerJS: mainBowerFiles('**/*.js'),
 	bowerSCSS: mainBowerFiles('**/*.scss'),
 	bowerCSS: mainBowerFiles('**/*.css')
@@ -100,6 +100,11 @@ gulp.task('move-bower-css', function() {
       .pipe(concatCss('normalize.min.css'))
       .pipe(cleanCSS())
       .pipe(gulp.dest(config.prod + '/minified/css'))
+});
+
+gulp.task('move-bower-dir', function() {
+    return gulp.src(config.bowerDir + '/**')
+      .pipe(gulp.dest(config.prod + 'bower_components/'))
 });
 
 gulp.task('images', function() {
@@ -212,7 +217,7 @@ gulp.task('index', function() {
 
 // ---- task commands
 gulp.task('default', function(cb){
-	runSequence('clean:prod', ['css', 'js', 'images', 'minify-css', 'minify-js', 'minify-html'], 'index', cb);
+	runSequence('clean:prod', ['css', 'js', 'move-bower-dir', 'images', 'minify-css', 'minify-js', 'minify-html'], 'index', cb);
 });
 
 gulp.task('launch', function(cb) {

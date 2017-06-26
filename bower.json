@@ -1,6 +1,6 @@
 {
-  "name": "mySpaceBase",
-  "description": "spaceBase bolierplate that has been optimized for use at DSG. It could also be optimized to be used outside of DSG.",
+  "name": "myspacebase",
+  "description": "mySpaceBase bolierplate that has been optimized for use at DSG. It could also be optimized to be used outside of DSG.",
   "main": "index.html",
   "authors": [
     "Adam Knee"
