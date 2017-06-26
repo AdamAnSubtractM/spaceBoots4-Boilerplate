@@ -1,7 +1,7 @@
 mySpaceBase
 =========
 
-### spaceBase is a Sass-based responsive CSS framework.
+### mySpaceBase is a Sass-based responsive CSS framework.
 
 Many CSS frameworks are meant to be included and left alone. But mySpaceBase is a boilerplate layer that can be built upon and tailored for your needs. It combines best practices for today’s responsive web with the core components we use on every project. Consider it the launch pad for your adventures into cyberspace.
 
@@ -46,7 +46,7 @@ Your editor can be setup with EditorConfig so that code style standards are enfo
 
 ## The spaceBase structure
 
-Read the [CSS Architecture Overview](scss/README.md) for documentation of the SCSS files.
+Read the [CSS Architecture Overview](app/scss/README.md) for documentation of the SCSS files.
 
 ```
 Build in the app directory. 
