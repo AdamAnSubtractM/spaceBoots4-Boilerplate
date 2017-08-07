@@ -2,7 +2,7 @@
 @import "vars";
 
 // Choose either Normalize or Reset:
-@import "vendor/normalize"; $normalize: true;
+// @import "vendor/normalize"; $normalize: true;
 // @import "vendor/reset"; $reset: true;
 
 @import "base/mixins";
@@ -10,19 +10,19 @@
 @import "base/widths";
 @import "base/push";
 @import "base/pull";
-@import "base/shared";
+// @import "base/shared";
 @import "base/helpers";
 
-@import "ui/fonts";
+// @import "ui/fonts";
 @import "ui/typography";
-@import "ui/forms";
-@import "ui/buttons";
+// @import "ui/forms";
+// @import "ui/buttons";
 @import "ui/island";
-@import "ui/lists";
+// @import "ui/lists";
 @import "ui/media";
 @import "ui/layout";
 
-@import "ui/print";
+// @import "ui/print";
 
 // @import "sites-base/ggxy-fns-normalize";
 // @import "sites-base/dsg-normalize";
