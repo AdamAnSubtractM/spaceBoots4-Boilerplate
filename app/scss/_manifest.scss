@@ -2,27 +2,66 @@
 @import "vars";
 
 // Choose either Normalize or Reset:
+
+// NOTE: Leave these commented out if you're doing a project for DSG, GGXY, or FnS
+// as they already include them in. Feel free to uncomment this if the project is personal
+
 // @import "vendor/normalize"; $normalize: true;
 // @import "vendor/reset"; $reset: true;
 
+// This defines things like clearfix (etc.)
 @import "base/mixins";
+
+// This is your grid system, this is the most beneficial part of this boilerplate
 @import "base/grids";
+
+// This defines the widths of that grid system. Highly reccomend you keep this uncommented.
 @import "base/widths";
-@import "base/push";
-@import "base/pull";
-// @import "base/shared";
+
+// This is your standard push and pull system. I don't often use this because the boilerplate
+// has a grid-wrapper--rev class. It's your choice on whether you use this or not.
+// Documentation on push & pull : [ https://stackoverflow.com/questions/23556230/what-do-push-pull-classes-do-in-a-grid-system ]
+// @import "base/push";
+// @import "base/pull";
+
+// This has a lot of helpful pre-defined styles that you migh not neccesarily use. The box sizing is the most important style
+// defined in this. It allows you grid/width system to render correctly. If you don't include this, I reccoment you add the
+// box-sizing in manually.
+@import "base/shared";
+
+// Pre-defined helper classes. Highly reccomend using. The 'visually-hidden' class allows something to be hidden from the user
+// but still read by screen readers and SEO crawlers.
 @import "base/helpers";
 
+// If your loading in fonts locally, uncomment and include in here:
 // @import "ui/fonts";
+
+// Pre-defined styles to the typography.
 @import "ui/typography";
+
+// Gives you pre-defined styles to your form if using one.
 // @import "ui/forms";
+
+// This is only really useful if we were more consistent with our button styles and branding.
 // @import "ui/buttons";
+
+// Based on Harry Robert's Island. You likely won't need it. Read about it here: [ https://csswizardry.com/2011/10/the-island-object/ ]
 @import "ui/island";
+
+// Pre-defiend styles for lists
 // @import "ui/lists";
-@import "ui/media";
+
+// Classes that can be helpful for media
+// @import "ui/media";
+
+// Defines important styles on your main wrapper class.
 @import "ui/layout";
 
+// Defines print styles. NOTE: Leave these commented out if you're doing a project for DSG, GGXY, or FnS as this is already taken care of.
 // @import "ui/print";
 
+// These add styles specific to the three DSG owned sites. These are helpful for anticipating what site styles may override your own, so that
+// you can make adjustments accordingly. Since these are already on the site, you'll wan't to ensure these are commented out when your done
+// w/ your project.
 // @import "sites-base/ggxy-fns-normalize";
 // @import "sites-base/dsg-normalize";

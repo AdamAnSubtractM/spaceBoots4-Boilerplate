@@ -6,7 +6,8 @@
     .island,
     .islet,
     .landmark,
-    .landmarklet {
+    .landmarklet,
+    .copy {
       display: block;
       @include clearfix;
 

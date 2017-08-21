@@ -3,8 +3,8 @@
 //------------------------------------//
 
 /*
-  spaceBase version: 3.0.1
-  http://spacebase.space150.com
+  mySpaceBase version: 1.0.1
+  https://bitbucket.org/dsgfed/myspacebase
 */
 
 $legacy-ie: false !default;
@@ -22,7 +22,7 @@ $responsive:           true;
 $responsive-push-pull: false;
 
 // Base measurements
-$base-font-size:         16px;
+$base-font-size:         10px;
 $base-line-height:       28px;
 $base-font-size--mobile: $base-font-size;
 // Set to px value if mobile requires different font size
@@ -38,17 +38,17 @@ $gutter: $base-spacing-unit;
 
 // Layout
 $site-min-width:         320px;
-$site-wrapper-max-width: 1440px;
+$site-wrapper-max-width: 2000px; //Full width size
 
 // Breakpoints
 $media-breakpoints: (
-  hand: 480px,
-  lap:  768px,
-  desk: 1024px,
+  hand: 320px,
+  lap:  640px,
+  desk: 1000px,
   wall: 1200px
 );
 
-$legacy-media-breakpoint: desk;
+$legacy-media-breakpoint: lap;
 
 // Media query expressions
 $media-features: (
@@ -59,15 +59,19 @@ $media-features: (
 );
 
 // Colors
-$black:        #000000;
+$black:        #333333;
+$trueBlack:    #000000;
 $gray-dark:    #666666;
 $gray:         #999999;
 $gray-light:   #cccccc;
 $white:        #ffffff;
+$green:        #006554;
+$fnsOrange:    #f58023;
+$ggxyBlue:     #00203a;
 
-$primary:      #7abcb5; // light teal
-$secondary:    #41a29c; // dark teal
-$tertiary:     #e48d38; // orange
+$primary:      #006554; // DSG Green
+$secondary:    #00203a; // GGXY Blue
+$tertiary:     #f58023; // FnS Orange
 $quaternary:   #c46e35; // dark orange
 
 // quinary, senary, septenary, octonary, nonary, denary
@@ -77,8 +81,8 @@ $styleguide-colors:
 $black, $gray-dark, $gray, $gray-light, $white, $primary, $secondary, $tertiary, $quaternary;
 
 // Form validation colors
-$state-success: #468847;
-$state-error:   #b94a48;
+$state-success: #006554;
+$state-error:   #b90930;
 
 // Fonts
 $font-body: Arial, Helvetica, sans-serif;

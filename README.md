@@ -1,7 +1,18 @@
 mySpaceBase
 =========
 
-### mySpaceBase is a Sass-based responsive CSS framework.
+### mySpaceBase is a Sass-based responsive CSS framework built on spaceBase.
+
+## Getting Started
+```sh
+1. $ git clone https://user-name@bitbucket.org/dsgfed/myspacebase.git
+2. $ npm i
+3. $ gulp launch or 'gulp dev' to start the tasker
+```
+4. Open scss/_vars.scss to make changes to your global variables.
+4. Start building out your HTML. I've included index.html as a starting point.
+6. scss/base/ is the core of mySpaceBase. Build your UI layer in scss/ui/
+7. Do a find and replace on the entire project directory for '.myspaceBaseWrap' and replace the name with your project specfic name (e.g. '.gameCrusher3' )
 
 Many CSS frameworks are meant to be included and left alone. But mySpaceBase is a boilerplate layer that can be built upon and tailored for your needs. It combines best practices for today’s responsive web with the core components we use on every project. Consider it the launch pad for your adventures into cyberspace.
 
@@ -28,15 +39,6 @@ Built on spaceBase:
 * Base font size for mobile vs desktop
 * Global variables for breakpoints, colors, fonts and more
 
-## Getting Started
-```sh
-1. $ git clone the project directory
-2. $ npm install
-3. $ gulp launch or 'gulp dev' to start the tasker
-```
-3. Open scss/_vars.scss to make changes to your global variables.
-4. Start building out your HTML. I've included index.html as a starting point.
-5. scss/base/ is the core of mySpaceBase. Build your UI layer in scss/ui/
 
 Your editor can be setup with EditorConfig so that code style standards are enforced automatically. See http://editorconfig.org/#download and install the plugin for your editor of choice.
 
@@ -44,7 +46,7 @@ Your editor can be setup with EditorConfig so that code style standards are enfo
 
 * If you're building a static content page for DSG, GGXY, or FnS, import the code base from 'app/scss/sites-base/' . This way your local build will have the same starting files as the site.
 
-## The spaceBase structure
+## The mySpaceBase structure
 
 Read the [CSS Architecture Overview](app/scss/README.md) for documentation of the SCSS files.
 
@@ -101,7 +103,7 @@ mySpaceBase is free to use under the [MIT License](LICENSE.md).
 
 Copyright 2017 [Adam Knee](http://www.adamknee.net)
 
-## Original Theme License
+## Original Boilerplate License:
 
 spaceBase is free to use under the [MIT License](LICENSE.md).
 

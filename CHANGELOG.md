@@ -1,3 +1,8 @@
+### 1.1.0 (August 01, 2017)
+
+* Fixed scope of the stylesheet
+* Stylesheet should effect exclusively the static content project
+
 ### mySpaceBase Launch (May 08, 2017)
 
 * Customized spaceBase theme into a new theme -> mySpaceBase
