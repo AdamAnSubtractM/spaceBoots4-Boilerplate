@@ -2,10 +2,22 @@
 
 html {
     body {
-        .myspaceBaseWrap {
+        margin: 0;
+        .mySpaceBaseWrap {
+            font-size: $base-font-size !important;
+            line-height: $base-line-height !important;
             .site-wrapper {
-
+                .delete-me-when-starting-project {
+                    .g {
+                        .content-wrap {
+                            background-color: #ccc;
+                            min-height: 50px;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
             } /** end .site-wrapper */
-        } /** end .myspaceBaseWrap */
+        } /** end .mySpaceBaseWrap */
     } /** end body */
 } /** end html */

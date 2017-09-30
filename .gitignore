@@ -1,4 +1,5 @@
 # never commit compiled code
+prod
 prod/*
 prod/minified/*
 

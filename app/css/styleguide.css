@@ -1,6 +1,6 @@
 /*
-  spaceBase version: 3.0.1
-  http://spacebase.space150.com
+  mySpaceBase version: 1.0.1
+  https://bitbucket.org/dsgfed/myspacebase
 */
 .sg-landmark {
   margin-bottom: 84px; }
@@ -18,7 +18,7 @@
 .sg-colors li {
   border: 1px solid #cccccc;
   background: #ffffff;
-  padding: 6.4px;
+  padding: 4px;
   margin-bottom: 14px; }
 
 .sg-swatch {
@@ -33,9 +33,9 @@
     top: 100px; }
 
 .sg-colors li:nth-of-type(1) .sg-swatch {
-  background: #000000; }
+  background: #333333; }
   .sg-colors li:nth-of-type(1) .sg-swatch:after {
-    content: "#000000"; }
+    content: "#333333"; }
 
 .sg-colors li:nth-of-type(2) .sg-swatch {
   background: #666666; }
@@ -58,19 +58,19 @@
     content: "#ffffff"; }
 
 .sg-colors li:nth-of-type(6) .sg-swatch {
-  background: #7abcb5; }
+  background: #006554; }
   .sg-colors li:nth-of-type(6) .sg-swatch:after {
-    content: "#7abcb5"; }
+    content: "#006554"; }
 
 .sg-colors li:nth-of-type(7) .sg-swatch {
-  background: #41a29c; }
+  background: #00203a; }
   .sg-colors li:nth-of-type(7) .sg-swatch:after {
-    content: "#41a29c"; }
+    content: "#00203a"; }
 
 .sg-colors li:nth-of-type(8) .sg-swatch {
-  background: #e48d38; }
+  background: #f58023; }
   .sg-colors li:nth-of-type(8) .sg-swatch:after {
-    content: "#e48d38"; }
+    content: "#f58023"; }
 
 .sg-colors li:nth-of-type(9) .sg-swatch {
   background: #c46e35; }

@@ -34,7 +34,7 @@ $base-spacing-unit: rem($line-height-ratio);
 $half-spacing-unit: $base-spacing-unit / 2;
 
 // Grid
-$gutter: $base-spacing-unit;
+$gutter: 2%;
 
 // Layout
 $site-min-width:         320px;
@@ -85,9 +85,23 @@ $state-success: #006554;
 $state-error:   #b90930;
 
 // Fonts
-$font-body: Arial, Helvetica, sans-serif;
+// // Fonts
+$dsgSansBlack: 'DSG Sans Black' Arial, Helvetica, sans-serif !important;
+$dsgSansBold: 'DSG Sans Bold', Arial, Helvetica, sans-serif !important;
+$dsgSansMed: 'DSG Sans Medium', Arial Narrow, sans-serif !important;
+$dinMed: 'DIN Medium','Roboto', Arial, Helvetica, sans-serif !important;
+$fallback: Helvetica, Arial, sans-serif !important;
+$font-body: $dinMed;
 $font-head: $font-body;
 
 // Example font stacks using @font-face (see _fonts.scss for declaration)
 // $font-body: "Source Sans Pro", Arial, Helvetica, sans-serif;
 // $font-head: "Fontatica4F", Arial, Helvetica, sans-serif;
+
+@mixin subtleFade($duration) {
+  -webkit-transition: color $duration ease-in, background-color $duration ease-in;
+  -moz-transition: color $duration ease-in, background-color $duration ease-in;
+  -ms-transition: color $duration ease-in, background-color $duration ease-in;
+  -o-transition: color $duration ease-in, background-color $duration ease-in;
+  transition: color $duration ease-in, background-color $duration ease-in;
+}
