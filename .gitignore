@@ -1,14 +1,11 @@
 # never commit compiled code
-prod
-prod/*
-prod/minified/*
+dist
+dist/
+dist/*
+dists/minified/*
 
 # Temporary Sass files
 .sass-cache/
-
-# Compiled source for deployment
-dist/
-tests/**/*input.css
 
 ### Mac ###
 .DS_Store
@@ -22,11 +19,8 @@ ehthumbs.db
 
 ### Log files ###
 *.log
-
-### Node ###
 # Logs
 logs
-*.log
 
 ### Runtime data ###
 pids

@@ -1,3 +1,9 @@
+### 2.0.0 (August 01, 2017)
+
+* Rewrote Gulp Script
+* Changed Folder structure to more closely follow web standards
+* Left room to include a futur build with Nunjucks
+
 ### 1.1.0 (August 01, 2017)
 
 * Fixed scope of the stylesheet

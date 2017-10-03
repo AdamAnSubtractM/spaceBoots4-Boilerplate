@@ -7,12 +7,13 @@ mySpaceBase
 ```sh
 1. $ git clone https://user-name@bitbucket.org/dsgfed/myspacebase.git
 2. $ npm i
-3. $ gulp launch or 'gulp dev' to start the tasker
+3. $ gulp launch
 ```
+5. Work out of the 'src' directory directly
 4. Open scss/_vars.scss to make changes to your global variables.
 4. Start building out your HTML. I've included index.html as a starting point.
 6. scss/base/ is the core of mySpaceBase. Build your UI layer in scss/ui/
-7. Do a find and replace on the entire project directory for '.myspaceBaseWrap' and replace the name with your project specfic name (e.g. '.gameCrusher3' )
+7. Do a find and replace on the entire project directory for '.mySpaceBaseWrap' and replace the name with your project specfic name (e.g. '.gameCrusher3' )
 
 Many CSS frameworks are meant to be included and left alone. But mySpaceBase is a boilerplate layer that can be built upon and tailored for your needs. It combines best practices for today’s responsive web with the core components we use on every project. Consider it the launch pad for your adventures into cyberspace.
 
@@ -44,16 +45,16 @@ Your editor can be setup with EditorConfig so that code style standards are enfo
 
 ## IMPORTANT
 
-* If you're building a static content page for DSG, GGXY, or FnS, import the code base from 'app/scss/sites-base/' . This way your local build will have the same starting files as the site.
+* If you're building a static content page for DSG, GGXY, or FnS, your welcome tp import the code base from 'src/scss/sites-base/' . This way you can see how the site will effect yout local build. However, please do not leave these imported for productions.
 
 ## The mySpaceBase structure
 
-Read the [CSS Architecture Overview](app/scss/README.md) for documentation of the SCSS files.
+Read the [CSS Architecture Overview](src/scss/README.md) for documentation of the SCSS files.
 
 ```
-Build in the app directory. 
+Build in the src directory. 
 
-app/
+src/
   assets/
     fonts/
     images/
@@ -90,6 +91,7 @@ You can remove:
 
 ## Credits
 
+* [Adam Knee] (http://adamknee.net/)
 * [Harry Robert’s Inuit.css](https://github.com/csswizardry/inuit.css)
 * [Sass MQ](https://github.com/sass-mq/sass-mq)
 * [Bootstrap](http://getbootstrap.com)
