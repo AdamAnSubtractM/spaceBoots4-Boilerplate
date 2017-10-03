@@ -47,6 +47,8 @@ html body .mySpaceBaseWrap .g,
 html body .mySpaceBaseWrap .grid {
   float: left;
   padding-left: 2%;
+  -webkit-transition: width .15s ease;
+  -o-transition: width .15s ease;
   transition: width .15s ease; }
   html body .mySpaceBaseWrap .g a,
   html body .mySpaceBaseWrap .grid a {
@@ -325,7 +327,8 @@ html body .mySpaceBaseWrap .grid {
     width: 91.66667%; } }
 
 .mySpaceBaseWrap *, .mySpaceBaseWrap *:before, .mySpaceBaseWrap *:after {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .mySpaceBaseWrap audio,
 .mySpaceBaseWrap canvas,
@@ -606,5 +609,7 @@ html {
         min-height: 50px;
         text-align: center;
         text-transform: uppercase; }
+        html body .mySpaceBaseWrap .site-wrapper .delete-me-when-starting-project .g .content-wrap p {
+          font-family: "DSG Sans Black", Arial, Helvetica, sans-serif !important; }
 
 /** end html */
