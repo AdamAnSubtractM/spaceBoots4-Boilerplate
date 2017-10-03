@@ -45,7 +45,7 @@ Your editor can be setup with EditorConfig so that code style standards are enfo
 
 ## IMPORTANT
 
-* If you're building a static content page for DSG, GGXY, or FnS, your welcome tp import the code base from 'src/scss/sites-base/' . This way you can see how the site will effect yout local build. However, please do not leave these imported for productions.
+* If you're building a static content page for DSG, GGXY, or FnS, your welcome to import the code base from 'src/scss/sites-base/' . This way you can see how the site will effect yout local build. However, please do not leave these imported for productions.
 
 ## The mySpaceBase structure
 
