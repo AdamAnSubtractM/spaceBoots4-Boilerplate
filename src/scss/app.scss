@@ -2,25 +2,26 @@
 
 html {
     body {
-        margin: 0;
-        .mySpaceBaseWrap {
-            font-size: $base-font-size !important;
-            line-height: $base-line-height !important;
-            .site-wrapper {
-                .delete-me-when-starting-project {
-                    .g {
-                        .content-wrap {
-                            background-color: #ccc;
-                            min-height: 50px;
-                            text-align: center;
-                            text-transform: uppercase;
-                            p {
-                                font-family: $dinMed;
-                            }
-                        }
+        .spaceBootsWrap {
+            .delete-me-when-starting-your-project {
+                .row {
+                    div {
+                        min-height: 100px;
+                        margin-bottom: 2em;
+                        color: #ecf0f1;
+                        background-color: #2980b9;
+                        text-align: center;
+                        text-transform: uppercase;
+                        padding: 3rem 4%;
                     }
                 }
-            } /** end .site-wrapper */
-        } /** end .mySpaceBaseWrap */
+            }
+        } /** end .spaceBootsWrap */
     } /** end body */
 } /** end html */
+
+
+@include media-breakpoint-up(sm) {  } //end [540px sm]
+@include media-breakpoint-up(md) {  } //end [720px md]
+@include media-breakpoint-up(lg) {  } //end [960px lg]
+@include media-breakpoint-up(xl) {  } //end [1140px xl]

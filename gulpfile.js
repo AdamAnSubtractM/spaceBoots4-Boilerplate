@@ -155,7 +155,7 @@ gulp.task('clean:dist', function () {
 });
 // Gulp Task CMD's
 gulp.task('default', function (cb) {
-    runSequence('clean:dist', ['css', 'cssBundle', 'js', 'jsBundle'], 'images', 'html', 'php', 'lint', cb);
+    runSequence('clean:dist', ['css', 'cssBundle', 'js', 'jsBundle'], 'images', 'html', 'php', cb);
 });
 // For those use to using the 'gulp dev' CMD
 gulp.task('dev', function (cb) {

@@ -6,58 +6,6 @@
   mySpaceBase version: 1.0.1
   https://bitbucket.org/dsgfed/myspacebase
 */
-
-$legacy-ie: false !default;
-
-// To select Normalize or Reset, see _manifest.scss
-$normalize: false !default;
-$reset:     false !default;
-
-// Include push/pull styles?
-$push: false;
-$pull: false;
-
-// Include responsive grid widths w/breakpoint namespace?
-$responsive:           true;
-$responsive-push-pull: false;
-
-// Base measurements
-$base-font-size:         10px;
-$base-line-height:       28px;
-$base-font-size--mobile: $base-font-size;
-// Set to px value if mobile requires different font size
-
-// Calculated measurements
-$line-height-ratio: $base-line-height / $base-font-size;
-
-$base-spacing-unit: rem($line-height-ratio);
-$half-spacing-unit: $base-spacing-unit / 2;
-
-// Grid
-$gutter: 2%;
-
-// Layout
-$site-min-width:         320px;
-$site-wrapper-max-width: 2000px; //Full width size
-
-// Breakpoints
-$media-breakpoints: (
-  hand: 320px,
-  lap:  640px,
-  desk: 1000px,
-  wall: 1200px
-);
-
-$legacy-media-breakpoint: lap;
-
-// Media query expressions
-$media-features: (
-  portrait:  '(orientation: portrait)',
-  landscape: '(orientation: landscape)',
-  at2x: '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)',
-  at3x: '(-webkit-min-device-pixel-ratio: 3), (min-resolution: 350dpi)'
-);
-
 // Colors
 $black:        #333333;
 $trueBlack:    #000000;
@@ -76,16 +24,11 @@ $quaternary:   #c46e35; // dark orange
 
 // quinary, senary, septenary, octonary, nonary, denary
 
-// List of colors used to automatically populate styleguide
-$styleguide-colors:
-$black, $gray-dark, $gray, $gray-light, $white, $primary, $secondary, $tertiary, $quaternary;
-
 // Form validation colors
 $state-success: #006554;
 $state-error:   #b90930;
 
 // Fonts
-// // Fonts
 $dsgSansBlack: 'DSG Sans Black', Arial, Helvetica, sans-serif !important;
 $dsgSansBold: 'DSG Sans Bold', Arial, Helvetica, sans-serif !important;
 $dsgSansMed: 'DSG Sans Medium', Arial Narrow, sans-serif !important;
@@ -94,10 +37,7 @@ $fallback: Helvetica, Arial, sans-serif !important;
 $font-body: $dinMed;
 $font-head: $font-body;
 
-// Example font stacks using @font-face (see _fonts.scss for declaration)
-// $font-body: "Source Sans Pro", Arial, Helvetica, sans-serif;
-// $font-head: "Fontatica4F", Arial, Helvetica, sans-serif;
-
+//Custom Mixins
 @mixin subtleFade($duration) {
   -webkit-transition: color $duration ease-in, background-color $duration ease-in;
   -moz-transition: color $duration ease-in, background-color $duration ease-in;

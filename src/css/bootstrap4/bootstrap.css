@@ -6535,22 +6535,3 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
-
-/*
-  mySpaceBase version: 1.0.1
-  https://bitbucket.org/dsgfed/myspacebase
-*/
-html {
-  /** end body */ }
-  html body {
-    /** end .spaceBootsWrap */ }
-    html body .spaceBootsWrap .delete-me-when-starting-your-project .row div {
-      min-height: 100px;
-      margin-bottom: 2em;
-      color: #ecf0f1;
-      background-color: #2980b9;
-      text-align: center;
-      text-transform: uppercase;
-      padding: 3rem 4%; }
-
-/** end html */
