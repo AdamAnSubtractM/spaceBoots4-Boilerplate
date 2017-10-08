@@ -4,7 +4,7 @@
   "description": "spaceBoots4. The only mobile-first, robust grid system you'll ever need.",
   "main": "gulpfile.js",
   "keywords": [
-    "mySpaceBase"
+    "mySpaceBase",
     "css",
     "sass",
     "mobile-first",
