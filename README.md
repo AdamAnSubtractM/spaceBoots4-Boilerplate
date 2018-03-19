@@ -6,7 +6,7 @@ spaceBoots4
 
 ## Getting Started
 ```sh
-1. $ git clone https://user-name@bitbucket.org/dsgfed/spaceBoots4.git
+1. $ git clone https://github.com/AdamAndSubtractThem/spaceBoots4-Boilerplate 
 2. $ npm i
 3. $ gulp launch
 ```
@@ -18,7 +18,7 @@ spaceBoots4
 
 ## Super Important:
 
-* Bootstrap4 is in beta and is built on flex whereas Bootstrap3 is buit on floats. For that reason you likely are going to want to use my build call spaceBoots3 which is built off of Bootstrap 3 IF you're going to be using this as a project for DSG, FnS, or GGXY. 
+* Bootstrap4 is in beta and is built on flex whereas Bootstrap3 is buit on floats.
 * Bootstrap4 and the compiler do a great job at keeping this pretty lightweight despite all of the power behind it. However, if you're not using anything but the bootstrap grid system, please only import the grid system.
 * To do this, go to src/scss/_manifest.scss and comment out the bootstap import and import just the grid
 * You also can import bootsrap reboot as well (only do this if you're not importing the full bootstrap [default])
